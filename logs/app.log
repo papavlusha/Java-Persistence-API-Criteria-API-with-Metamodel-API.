@@ -1,0 +1,21 @@
+2023-12-14 17:24:38,466 ERROR s.LoggerManager [main] modelDAO.DAOException: java.lang.IllegalArgumentException: Negative MaxResult is not allowed.
+java.lang.IllegalArgumentException: Negative MaxResult is not allowed.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.setMaxResultsInternal(QueryImpl.java:879) ~[eclipselink-4.0.1.jar:4.0.1]
+	at org.eclipse.persistence.internal.jpa.QueryImpl.setMaxResults(QueryImpl.java:845) ~[eclipselink-4.0.1.jar:4.0.1]
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.setMaxResults(EJBQueryImpl.java:431) ~[eclipselink-4.0.1.jar:4.0.1]
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.setMaxResults(EJBQueryImpl.java:69) ~[eclipselink-4.0.1.jar:4.0.1]
+	at modelDAO.MovieDao.getTopRatedMovies(MovieDao.java:97) ~[classes/:?]
+	at view.Main.showTopRatedMovies(Main.java:124) [classes/:?]
+	at view.Main.main(Main.java:56) [classes/:?]
+2023-12-14 17:41:48,005 ERROR s.LoggerManager [main] java.lang.IllegalArgumentException
+2023-12-14 17:42:20,059 ERROR s.LoggerManager [main] java.lang.IllegalArgumentException
+2023-12-14 17:57:08,834 ERROR s.LoggerManager [main] modelDAO.DAOException: java.lang.IllegalArgumentException: Negative MaxResult is not allowed.
+java.lang.IllegalArgumentException: Negative MaxResult is not allowed.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.setMaxResultsInternal(QueryImpl.java:879) ~[eclipselink-4.0.1.jar:4.0.1]
+	at org.eclipse.persistence.internal.jpa.QueryImpl.setMaxResults(QueryImpl.java:845) ~[eclipselink-4.0.1.jar:4.0.1]
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.setMaxResults(EJBQueryImpl.java:431) ~[eclipselink-4.0.1.jar:4.0.1]
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.setMaxResults(EJBQueryImpl.java:69) ~[eclipselink-4.0.1.jar:4.0.1]
+	at modelDAO.MovieDao.getTopRatedMovies(MovieDao.java:97) ~[classes/:?]
+	at view.Main.showTopRatedMovies(Main.java:126) [classes/:?]
+	at view.Main.main(Main.java:56) [classes/:?]
+2023-12-14 18:08:35,207 ERROR s.LoggerManager [main] java.lang.IllegalArgumentException
